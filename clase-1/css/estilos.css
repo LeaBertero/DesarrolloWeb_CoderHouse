@@ -9,6 +9,21 @@
         
 } */
 
+
+
+.nav-bar{
+    background-color: rgb(143, 12, 56);
+   
+
+}
+
+.nav-ini{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
 .fondo{
     background-color: rgb(212, 114, 147);
 }
