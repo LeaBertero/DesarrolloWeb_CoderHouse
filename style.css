@@ -20,7 +20,8 @@
 .contendor{
     background-color: red;
     padding: 10rem;
-   
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .texto1{
