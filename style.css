@@ -1,0 +1,45 @@
+/* .p-3{
+    margin-left: 4rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 10px;
+    padding-bottom:1rem;
+    padding-left: 1rem;
+    background-color: steelblue;
+    text-shadow: 2px 5px 3px gray;
+    box-shadow: 2px 5px 3px red;
+    text-transform: uppercase;
+    text-align: center;
+    
+} */
+
+.contendor{
+    background-color: red;
+    padding: 10rem;
+   
+}
+
+.texto1{
+    font-size: 2rem;
+    color: bisque;
+    
+}
+
+.columna-1{
+    background-color: green;
+    padding: 8rem;
+}
+.columna-2{
+    background-color: orange;
+    padding: 6rem;
+}
+.columna-3{
+    background-color: blue;
+    padding: 4rem;
+}
+
+
