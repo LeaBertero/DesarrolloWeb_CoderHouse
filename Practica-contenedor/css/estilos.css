@@ -1,0 +1,59 @@
+.contendor-caja {
+    background-color: gray;
+    padding: 8rem;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.uno {
+    border: 3px solid blue;
+    padding: 4rem;
+    background-color: blue;
+    border-radius: 10%;
+    /* width: 10%; */
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.dos {
+    border: 3px solid wheat;
+    padding: 4rem;
+    background-color: wheat;
+    border-radius: 10%;
+    /* width: 10%; */
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.tres {
+    border: 3px solid red;
+    padding: 4rem;
+    background-color: red;
+    border-radius: 10%;
+    /* width: 10%; */
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.cuatro {
+    border: 3px solid green;
+    padding: 4rem;
+    background-color: green;
+    border-radius: 10%;
+    /* width: 10%; */
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: black;
+}
