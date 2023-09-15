@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo principal */
+.titulo {
+    border: 1px solid gray;
+   
+}
+
+/* .nav-primary {
+    float: right;
+} */
+
+/* .nav-primary ul li {
+    list-style: none;
+    display: block;
+    box-sizing: border-box; 
+} */
+
+
+
+/* footer */
+.redes {
+    width: 3rem;
+    border: 3px solid green;
+    border-radius: 2rem;
+    box-shadow: 2px 5px 3px gray;
+    padding: 5px;
+}
