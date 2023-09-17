@@ -1,0 +1,6 @@
+.titulo-principal{
+    padding: 10px;
+    background-image: url(../imagenes/huella.jpg);
+    width: 60px;
+    border: 2px solid red;
+}
