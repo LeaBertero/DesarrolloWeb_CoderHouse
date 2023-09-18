@@ -63,5 +63,20 @@
     background:linear-gradient(to top left, orange, green, lightblue);
 }
    
+.lista-Ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 2px solid bisque;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color:greenyellow;
+}
+
+.enlace{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+}
     
 
