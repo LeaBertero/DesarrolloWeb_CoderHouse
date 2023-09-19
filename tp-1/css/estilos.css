@@ -9,10 +9,18 @@
 .titulo-index{
     text-align: center;
     width: 400px;
+    /* margin-top: 10px; */
     text-transform: uppercase;
+    border: 2px solid black;
     margin: 0px auto;
-    padding: 1rem;
+    /* text-align: center; */
+    /* font-size: 60px; */
+    padding: .8rem;
+    border-radius: 50%;
+    background-color:bisque;
+    box-shadow: 2px 5px 3px black;
     text-shadow: 2px 5px 3px gray;
+    /* font-stretch: expanded; */
 }
 
 .subtitulo-pet{
@@ -43,14 +51,27 @@
     padding-bottom: 1rem;
 }
 
+.home{
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 4px;
+    box-shadow: 2px 5px 3px black;
+    
+}
+
 /* registrate */
-.caja-reg{
+/* .caja-reg{
     margin: 1rem 40rem;
     font-size: 1.4rem;
     font-weight: bolder;
     text-transform: uppercase;
 
-}
+} */
 
 /* imgen de la huella */
 .img-huella{
@@ -61,6 +82,10 @@
     border-radius: 50%;
     padding: .5rem;
     background:linear-gradient(to top left, orange, green, lightblue);
+}
+
+.nav-index{
+    padding: 15px;
 }
    
 .lista-Ul{
