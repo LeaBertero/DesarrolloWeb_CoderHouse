@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    width: 300px;
+    margin: 10px auto;
+    color: springgreen;
+    text-shadow: 2px 5px 3px black;
+    box-shadow: 2px 5px 3px black;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+
+.formulario{
+    border: 3px solid black;
+    width: 300px;
+    margin: 20px auto;
+    background-color: aqua; 
+}
+
+.bt-enviar{
+    background-color:cornflowerblue;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 80px;
+    width: 100px;
+}
+
