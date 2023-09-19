@@ -1,12 +1,12 @@
 /* megen y paddig de la web */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* titulo principal del index */
-.titulo-index{
+.titulo-index {
     text-align: center;
     width: 400px;
     /* margin-top: 10px; */
@@ -17,13 +17,13 @@
     /* font-size: 60px; */
     padding: .8rem;
     border-radius: 50%;
-    background-color:bisque;
+    background-color: bisque;
     box-shadow: 2px 5px 3px black;
     text-shadow: 2px 5px 3px gray;
     /* font-stretch: expanded; */
 }
 
-.subtitulo-pet{
+.subtitulo-pet {
     margin: 0 0 0 44rem;
     box-shadow: 2px 5px 3px black;
     text-transform: uppercase;
@@ -35,10 +35,12 @@
 }
 
 
-.principal{
-    border: 2px solid gray;
+.principal {
+    border: 10px solid greenyellow;
     /* background-image: url(../imagenes/huella.jpg); */
     /* width: 100%; */
+    background-color: yellow;
+    padding: 1rem;
 }
 
 /* .registro{
@@ -46,12 +48,12 @@
     
 } */
 
-.back-img_huella{
+.back-img_huella {
     background-color: green;
     padding-bottom: 1rem;
 }
 
-.home{
+.home {
     text-align: center;
     font-size: 1.3rem;
     background-color: antiquewhite;
@@ -61,7 +63,7 @@
     border-radius: 1rem;
     padding: 4px;
     box-shadow: 2px 5px 3px black;
-    
+
 }
 
 /* registrate */
@@ -74,34 +76,32 @@
 } */
 
 /* imgen de la huella */
-.img-huella{
+.img-huella {
     width: 200px;
     margin: 2px 0px 0px 560px;
     box-shadow: 2px 5px 3px black;
     border: 2px solid black;
     border-radius: 50%;
     padding: .5rem;
-    background:linear-gradient(to top left, orange, green, lightblue);
+    background: linear-gradient(to top left, orange, green, lightblue);
 }
 
-.nav-index{
+.nav-index {
     padding: 15px;
 }
-   
-.lista-Ul{
+
+.lista-Ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     border: 2px solid bisque;
     padding: 1rem;
     border-radius: 10px;
-    background-color:greenyellow;
+    background-color: greenyellow;
 }
 
-.enlace{
+.enlace {
     font-weight: bolder;
     text-transform: uppercase;
     color: black;
 }
-    
-
