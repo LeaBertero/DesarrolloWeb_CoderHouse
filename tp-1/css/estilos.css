@@ -110,9 +110,41 @@
     border-radius: 50%;
 }
 
+/* imagenes de redes sociales */
 .redes{
     display: flex;
     justify-content: space-between;
+    width: 50px;
+    box-shadow: 2px 5px 3px gray;
+    border-radius: 50%;
+}
+
+/* caja div para redes sociales */
+.redes-box{
+    background-color: rgb(10, 115, 68) ;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px gray;
+    display: flex;
+    justify-content: space-between;
+    padding: .9rem;
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px 20px ;
+}
+
+.enlace-redes{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    /* text-shadow: 2px 5px 3px whitesmoke; */
+    border: 2px solid white;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 5px;
+    box-shadow: 2px 5px 3px gray;
+    
 }
 
 
