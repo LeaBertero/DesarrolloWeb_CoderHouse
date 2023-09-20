@@ -34,3 +34,15 @@ h1{
     width: 100px;
 }
 
+/* imagen cargada desde css */
+.imagen{
+    background-image:url("../imagenes/IMG-20220613-WA0003.jpg") ;
+    border: 20px solid black;
+    height: 700px;
+    background-repeat: no-repeat;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    margin: 30px 30px;
+    box-shadow: 2px 5px 3px gray;
+}
+
