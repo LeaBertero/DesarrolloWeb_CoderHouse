@@ -90,4 +90,25 @@
 }
 
 
+/* mapa de ubicacion */
+.map-ubicacion{
+    border: 2px solid black;
+    width: 305px;
+    margin: 10px 10px 0 50px;
+    box-shadow: 2px 5px 3px gray;
+}
+
+/* footer - visitanos */
+.visitanos{
+    background-color: blueviolet;
+    margin: 10px 10px 0 30px;
+    font-size: 30px;
+    padding: 1rem;
+    width: 350px;
+    text-align: center;
+    box-shadow: 2px 5px 3px gray;
+    border-radius: 50%;
+}
+
+
 
