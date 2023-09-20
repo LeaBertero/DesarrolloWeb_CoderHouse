@@ -20,7 +20,7 @@ h1{
 
 .formulario{
     border: 3px solid black;
-    width: 300px;
+    width: 100%;
     margin: 20px auto;
     background-color: aqua; 
 }

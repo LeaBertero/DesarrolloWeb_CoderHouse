@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
@@ -15,22 +16,60 @@
     <header>
         <h1>Formularios</h1>
     </header>
-    
+
     <main>
 
         <section class="formulario">
-            <form  action="">
+            <form action="">
 
-                <input type="text" placeholder="Ingrese su nombre">
-                <input type="email" placeholder="ingese su e-mail">
+                <div>
+                    <input id="campo-nombre" type="text" placeholder="Ingrese su nombre">
+                    <input type="email" placeholder="ingese su e-mail">
+                </div>
 
                 <textarea name="" id="tex-area" cols="30" rows="10" placeholder="Dejanos tu mensaje aca !!"></textarea>
 
-                <input class="bt-enviar" type="submit" value="Enviar">
-                <input class="bt-enviar" type="reset">
+                <div>
+                    <input class="bt-enviar" type="submit" value="Enviar">
+                    <input class="bt-enviar" type="reset">
+                </div>
+
+                <p>ingrese la opcion a continuacion</p>
+
+                <div>
+                    <label for="campo-nombre">Ingrese su nombre y apellido</label>
+                </div>
+
+                <div>
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                </div>
+
+
+                <p>¿Queres recibir novedades?</p>
+
+                <div>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+
+
+
+                <select name="" id="">
+                    <option value="">opcion1</option>
+                    <option value="">opcion2</option>
+                    <option value="">opcion3</option>
+                </select>
 
             </form>
+
         </section>
+
+
 
     </main>
 
@@ -39,4 +78,5 @@
     </footer>
 
 </body>
+
 </html>

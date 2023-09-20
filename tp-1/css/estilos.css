@@ -110,5 +110,10 @@
     border-radius: 50%;
 }
 
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
