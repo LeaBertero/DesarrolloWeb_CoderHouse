@@ -19,7 +19,7 @@
     text-shadow: 2px 5px 3px gray;
 }
 
-
+/* subtitulo del header */
 .subtitulo-pet {
     margin: 0 0 0 44rem;
     box-shadow: 2px 5px 3px black;
@@ -31,7 +31,7 @@
     padding: .8rem;
 }
 
-
+/* estilos del header */
 .principal {
     border: 10px solid greenyellow;
     /* background-image: url(../imagenes/huella.jpg); */
@@ -40,7 +40,7 @@
     padding: 1rem;
 }
 
-
+/* fondo del la imagen del header */
 .back-img_huella {
     background-color: green;
     padding-bottom: 1rem;
@@ -145,6 +145,10 @@
     padding: 5px;
     box-shadow: 2px 5px 3px gray;
     
+}
+
+.registro-img{
+    background-color: greenyellow;
 }
 
 
