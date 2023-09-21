@@ -175,9 +175,6 @@
 
 /* ------------------------------------------------------------------------------------------------- */
 
-
-
-
 /* imagenes de servicios */
 .servicios-img {
     width: 400px;
@@ -193,6 +190,15 @@
     justify-content: space-between;
     
 }
+
+.box-img_servicios{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+
+
 
 
 
