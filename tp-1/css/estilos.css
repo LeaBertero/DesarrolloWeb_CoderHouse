@@ -175,21 +175,16 @@
 
 /* ------------------------------------------------------------------------------------------------- */
 
-/* background de servicios */
-.back_servicios{
-    background-color: green;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: 2rem;
-        
-}
+
+
 
 /* imagenes de servicios */
 .servicios-img {
     width: 400px;
+    /* letter-spacing: 150px; */
     border-radius: 10px;
-    margin: 10px;
-    box-shadow: 2px 5px 3px bisque;
+    margin: 10px 10px;
+    box-shadow: 2px 5px 3px black;
 }
 
 /* div caja de seccion servicios */
