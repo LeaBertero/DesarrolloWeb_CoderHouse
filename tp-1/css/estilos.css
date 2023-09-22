@@ -91,6 +91,21 @@
     font-weight: bolder;
     text-transform: uppercase;
     color: black;
+    text-decoration-line: none;
+}
+
+.encontranos-enlace{
+    text-decoration-line: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 5px 3px gray;
+    box-shadow: 2px 5px 3px black;
+    background-color: beige;
+    margin: 0 10px 0 10px;
 }
 
 
