@@ -190,7 +190,7 @@
 
 /* ------------------------------------------------------------------------------------------------- */
 
-/* imagenes de servicios */
+/* imagenes de la seccion servicios */
 .servicios-img {
     width: 400px;
     /* letter-spacing: 150px; */
@@ -200,17 +200,35 @@
 }
 
 /* div caja de seccion servicios */
-.servicios_ {
+.servicios_seccion {
     display: flex;
     justify-content: space-between;
     
 }
+
+.servicios-title{
+    border: 2px solid black;
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 3px gray;
+    width: 400px;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 2px 5px 3px black;
+    background-color: bisque;
+}
+
+
+
 
 .box-img_servicios{
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
 }
+
 
 /* seccion nosotros */
 .nosostros{
@@ -284,17 +302,5 @@
     border-radius: 50%;
 }
 
-.servicios-title{
-    border: 2px solid black;
-    text-align: center;
-    margin: 30px auto;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-shadow: 2px 5px 3px gray;
-    width: 400px;
-    border-radius: 50%;
-    padding: 1rem;
-    box-shadow: 2px 5px 3px black;
-    background-color: bisque;
-}
+
 
