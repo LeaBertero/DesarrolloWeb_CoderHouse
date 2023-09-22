@@ -119,14 +119,23 @@
 
 /* footer - visitanos */
 .visitanos {
-    background-color: blueviolet;
-    margin: 10px 10px 0 30px;
+    background-color: bisque;
+    /* margin: 10px 10px 0 30px; */
+    margin: 15px auto;
     font-size: 30px;
     padding: 1rem;
     width: 350px;
     text-align: center;
     box-shadow: 2px 5px 3px gray;
     border-radius: 50%;
+}
+
+.visitanos-txt{
+    color: green;
+    font-size: 3.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 2px 5px 3px greenyellow;
 }
 
 /* imagenes de redes sociales */
@@ -189,6 +198,19 @@
 }
 
 /* ------------------------------------------------------------------------------------------------- */
+
+.servicios-ofrecemos-img{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.servicios-img-contenedor{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2px; */
+}
 
 /* imagenes de la seccion servicios */
 .servicios-img {
