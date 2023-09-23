@@ -242,9 +242,6 @@
     background-color: bisque;
 }
 
-
-
-
 .box-img_servicios{
     display: flex;
     justify-content: space-between;
@@ -298,7 +295,7 @@
     text-align: center;
     padding: 1rem;
     border: 2px solid black;
-    width: 25rem;
+    width: 48rem;
     margin: 0 auto;
     border-radius: 50%;
     box-shadow: 2px 5px 3px black;
@@ -306,6 +303,7 @@
     text-shadow: 2px 5px 3px gray;
     background-color: bisque;
     font-weight: bolder;
+    font-size: 5rem;
 }
 
 .instalaciones-img{
@@ -322,6 +320,22 @@
 .img-inst{
     width: 25rem;
     border-radius: 50%;
+}
+
+/* imagenes de productos en la seccion de productos */
+.ima-productos{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-img{
+    box-shadow: 2px 5px 3px black;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 
