@@ -111,10 +111,13 @@
 
 /* mapa de ubicacion */
 .map-ubicacion {
-    border: 2px solid black;
-    width: 305px;
-    margin: 10px 10px 0 50px;
-    box-shadow: 2px 5px 3px gray;
+    /* border: 2px solid black; */
+    /* width: 305px; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
+    /* box-shadow: 2px 5px 3px gray; */
 }
 
 /* footer - visitanos */
@@ -153,7 +156,7 @@
     background-color: rgb(10, 115, 68) ;
     border: 2px solid gray;
     border-radius: 10px;
-    box-shadow: 2px 5px 3px gray;
+    box-shadow: 2px 5px 3px white;
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -336,6 +339,20 @@
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
+}
+
+.encontranos-title{
+    text-align: center;
+    margin: 3rem auto;
+    font-weight: bolder;
+    font-size: 4rem;
+    border: 2px solid black;
+    width: 650px;
+    padding: 1rem;
+    border-radius: 10px;
+    text-shadow: 2px 5px 3px gray;
+    background-color: bisque;
+    box-shadow: 2px 5px 3px black;
 }
 
 
