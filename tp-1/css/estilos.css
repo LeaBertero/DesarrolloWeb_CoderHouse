@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.back-color{
+.back-color {
     background-color: greenyellow;
 }
 
@@ -94,7 +94,7 @@
     text-decoration-line: none;
 }
 
-.encontranos-enlace{
+.encontranos-enlace {
     text-decoration-line: none;
     border: 2px solid black;
     border-radius: 10px;
@@ -109,71 +109,20 @@
 }
 
 
-/* mapa de ubicacion */
-.map-ubicacion {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* imagenes de redes sociales */
-.redes {
+/* .redes {
     display: flex;
     justify-content: space-between;
     width: 50px;
     box-shadow: 2px 5px 3px gray;
     border-radius: 50%;
-    /* gap: 1rem; */
+    
 }
 
-.seguinos-title{
-    border: 2px solid snow;
-    padding: 1rem;
-    width: 400px;
-    margin: 55px auto;
-    border-radius: 10px;
-    font-size: 25px;
-}
 
-/* caja div para redes sociales */
-.redes-box {
-    background-color: rgb(10, 115, 68) ;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 5px 3px white;
-    display: flex;
-    gap: .8rem;
-    /* justify-content: center; */
-    padding: .9rem;
-    width: 35rem;
-    /* margin: 20px 0 0 5px; */
-    margin: 40px auto;
-    /* padding: 20px 20px ; */
-}
-
-.enlace-redes {
-    color: gray;
-    font-weight: bolder;
-    font-size: 1.2rem;
-    border: 2px solid white;
-    background-color: greenyellow;
-    border-radius: 10px;
-    margin: 10px auto;
-    padding: 5px;
-    box-shadow: 2px 5px 3px gray;
-    text-decoration-line: none;
-}
-
-/* registro */
-
-.registro-img {
-    /* background-color: greenyellow; */
-    height: 700px;
-}
 
 
 /* caja de texto del titulo de registro */
-.titulo-contacto{
+.titulo-contacto {
     border: 2px solid black;
     width: 350px;
     text-align: center;
@@ -186,14 +135,14 @@
 
 /* ------------------------------------------------------------------------------------------------- */
 
-.servicios-ofrecemos-img{
+.servicios-ofrecemos-img {
     display: flex;
     justify-content: space-between;
     width: 400px;
     border-radius: 10px;
 }
 
-.servicios-img-contenedor{
+.servicios-img-contenedor {
     display: flex;
     justify-content: space-between;
     /* gap: 2px; */
@@ -212,10 +161,10 @@
 .servicios_seccion {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.servicios-title{
+.servicios-title {
     border: 2px solid black;
     text-align: center;
     margin: 30px auto;
@@ -229,7 +178,7 @@
     background-color: bisque;
 }
 
-.box-img_servicios{
+.box-img_servicios {
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
@@ -237,11 +186,11 @@
 
 
 /* seccion nosotros */
-.nosostros{
+.nosostros {
     text-align: center;
 }
 
-.video-nosotros{
+.video-nosotros {
     width: 440px;
     display: flex;
     justify-content: center;
@@ -251,19 +200,9 @@
     margin: 20px auto;
 }
 
-.nosostros-title{
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-    border: 2px solid black;
-    width: 15rem;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 2px 5px 3px black;
-    background-color: bisque;
-}
 
-.instalaciones-title{
+
+.instalaciones-title {
     border: 2px solid black;
     width: 24rem;
     text-align: center;
@@ -278,7 +217,7 @@
 
 }
 
-.producto-title{
+.producto-title {
     text-align: center;
     padding: 1rem;
     border: 2px solid black;
@@ -293,24 +232,24 @@
     font-size: 5rem;
 }
 
-.instalaciones-img{
+.instalaciones-img {
     border-radius: 10px;
     margin-top: 2rem;
 }
 
-.instalaciones-img{
+.instalaciones-img {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
-.img-inst{
+.img-inst {
     width: 25rem;
     border-radius: 50%;
 }
 
 /* imagenes de productos en la seccion de productos */
-.ima-productos{
+.ima-productos {
     /* border: 2px solid black; */
     border-radius: 10px;
     margin: 40px auto;
@@ -318,26 +257,44 @@
     justify-content: space-between;
 }
 
-.prod-img{
+.prod-img {
     box-shadow: 2px 5px 3px black;
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
 }
 
-.encontranos-title{
-    text-align: center;
-    margin: 3rem auto;
-    font-weight: bolder;
-    font-size: 4rem;
-    border: 2px solid black;
-    width: 650px;
-    padding: 1rem;
-    border-radius: 10px;
-    text-shadow: 2px 5px 3px gray;
-    background-color: bisque;
-    box-shadow: 2px 5px 3px black;
+.map-ubicacion {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
+
+
+.redes {
+    width: 50px;
+    border: 2px solid beige;
+    background-color: beige;
+    border-radius: 50%;
+
+}
+
+.caja-redes-ubi {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.img-huella-footer{
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to top left, orange, green, lightblue);
+    padding: 8px;
+}
