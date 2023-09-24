@@ -111,35 +111,10 @@
 
 /* mapa de ubicacion */
 .map-ubicacion {
-    /* border: 2px solid black; */
-    /* width: 305px; */
-    margin: 30px auto;
     display: flex;
     justify-content: center;
-
-    /* box-shadow: 2px 5px 3px gray; */
 }
 
-/* footer - visitanos */
-.visitanos {
-    background-color: bisque;
-    /* margin: 10px 10px 0 30px; */
-    margin: 15px auto;
-    font-size: 30px;
-    padding: 1rem;
-    width: 350px;
-    text-align: center;
-    box-shadow: 2px 5px 3px gray;
-    border-radius: 50%;
-}
-
-.visitanos-txt{
-    color: green;
-    font-size: 3.5rem;
-    padding: 1rem;
-    text-align: center;
-    text-shadow: 2px 5px 3px greenyellow;
-}
 
 /* imagenes de redes sociales */
 .redes {
@@ -151,26 +126,35 @@
     /* gap: 1rem; */
 }
 
+.seguinos-title{
+    border: 2px solid snow;
+    padding: 1rem;
+    width: 400px;
+    margin: 55px auto;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
 /* caja div para redes sociales */
 .redes-box {
     background-color: rgb(10, 115, 68) ;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 10px;
     box-shadow: 2px 5px 3px white;
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
+    gap: .8rem;
+    /* justify-content: center; */
     padding: .9rem;
-    width: 40%;
-    margin: 0 auto;
-    padding: 20px 20px ;
+    width: 35rem;
+    /* margin: 20px 0 0 5px; */
+    margin: 40px auto;
+    /* padding: 20px 20px ; */
 }
 
 .enlace-redes {
     color: gray;
     font-weight: bolder;
     font-size: 1.2rem;
-    /* text-shadow: 2px 5px 3px whitesmoke; */
     border: 2px solid white;
     background-color: greenyellow;
     border-radius: 10px;
