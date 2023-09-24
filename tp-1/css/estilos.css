@@ -270,16 +270,33 @@
     justify-content: space-between;
 }
 
-
-
-
-
 .redes {
     width: 50px;
     border: 2px solid beige;
     background-color: beige;
     border-radius: 50%;
+    box-shadow: 2px 5px 3px black;
+}
 
+.enlace-redes{
+    text-decoration-line: none;
+    border: 2px solid beige;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: bisque;
+    box-shadow: 2px 5px 3px black;
+}
+
+.redes-box{
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px black;
+    background-color: beige;
+}
+
+.contenedor-enlaces-img{
+    margin-top: 20px;
 }
 
 .caja-redes-ubi {
@@ -288,6 +305,7 @@
     padding: 16px;
     margin: 10px;
     border: 2px solid black;
+    box-shadow: 2px 5px 3px black;
     border-radius: 10px;
     background-color: green;
 }
