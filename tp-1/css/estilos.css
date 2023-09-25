@@ -21,6 +21,7 @@
     background-color: bisque;
     box-shadow: 2px 5px 3px black;
     text-shadow: 2px 5px 3px gray;
+    
 }
 
 /* subtitulo del header */
@@ -107,19 +108,6 @@
     background-color: beige;
     margin: 0 10px 0 10px;
 }
-
-
-/* .redes {
-    display: flex;
-    justify-content: space-between;
-    width: 50px;
-    box-shadow: 2px 5px 3px gray;
-    border-radius: 50%;
-    
-}
-
-
-
 
 /* caja de texto del titulo de registro */
 .titulo-contacto {
@@ -213,8 +201,6 @@
     border: 25px solid green;
     margin: 20px auto;
 }
-
-
 
 .instalaciones-title {
     border: 2px solid black;
