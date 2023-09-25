@@ -346,3 +346,11 @@
     text-align:right;
     font-weight: bolder;
 }
+
+.btn-enviar{
+    box-shadow: 2px 5px 3px black;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    font-weight: bolder;
+    font-size: 16px;
+}
