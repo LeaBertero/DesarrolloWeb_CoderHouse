@@ -14,14 +14,14 @@
 
     /* row --> fila | horizontal */
     /* columns ---> columna | vertical */
-    flex-direction: row;
+    flex-direction:row;
 
     /* multilinea */
     /* nowrap ---> una sola linea */
     flex-wrap:nowrap;
     
     /* flow */
-    justify-content: end;
+    justify-content: space-around;
 }
 
 .caja-2{
