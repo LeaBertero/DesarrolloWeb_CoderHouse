@@ -1,0 +1,30 @@
+.caja{
+    border: 3px solid black;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container{
+    background-color: yellowgreen;
+    height: 98vh;
+    display: flex;
+
+    /* row --> fila | horizontal */
+    /* columns ---> columna | vertical */
+    flex-direction: row;
+
+    /* multilinea */
+    /* nowrap ---> una sola linea */
+    flex-wrap:nowrap;
+    
+    /* flow */
+    justify-content: end;
+}
+
+.caja-2{
+    background-color: aqua;
+}
+

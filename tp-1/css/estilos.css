@@ -333,22 +333,11 @@
     
 
 .caja-texto{
-    resize: none;
+    resize: none;   
     margin: 0 auto;
     display: flex;
     justify-content: center;
     margin: 10px 10px;
-}
-
-.btn-enviar{
-    box-shadow: 2px 5px 3px black;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 80px ;
-    font-weight: bolder;
-    font-size: 16px;
-    width: 220px;
-    background-color:bisque;
 }
 
 .input-caja{
@@ -364,7 +353,18 @@
 
 .input-form{
     font-weight: bolder;
-    margin: 15px;
 }
+
+.btn-enviar{
+    box-shadow: 2px 5px 3px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 80px ;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 220px;
+    background-color:bisque;
+}
+
     
     
