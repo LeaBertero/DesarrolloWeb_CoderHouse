@@ -319,19 +319,18 @@
 
 .contenedor-form{
     border: 2px solid black;
-    margin: 30px auto;
-    width: 400px;
+    margin: 20px auto;
+    width: 450px;
     display: flex;
-    justify-content: center;
-    /* height: 500px; */
+    justify-content:center;
     border-radius: 10px;
     box-shadow: 2px 5px 3px black;
     background-color: beige;
-    line-height: 30px;
     text-transform: uppercase;
-    text-align:right;
-    font-weight: bolder;
+    text-align:left;
+    /* font-weight: bolder; */
 }
+    
 
 .caja-texto{
     resize: none;
@@ -352,16 +351,20 @@
     background-color:bisque;
 }
 
+.input-caja{
+    text-align: right;
+}
+
 .input-user{
     box-shadow: 2px 5px 3px black;
-    margin: 12px 10px;
+    margin: 10px auto 0 10px;
     border-radius: 10px;
     padding: 5px 5px;
 }
 
 .input-form{
     font-weight: bolder;
-    margin: 0px 10px;
+    margin: 15px;
 }
     
     
