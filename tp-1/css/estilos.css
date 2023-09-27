@@ -331,14 +331,19 @@
     padding: 10px;
     background-color: green;
     border-radius: 10px;
+    margin: 20px 0 0 0;
 }
     
 .seguinos-tx{
     font-size: 4rem;
     margin: 10px;
+    margin: 30px 0 0 0;
+    text-align: center;
 }
 
 .redes-img{
+    box-shadow: 2px 5px 3px beige;
+    border-radius: 50%;
     width: 50px;
     margin: 10px;   
 }
