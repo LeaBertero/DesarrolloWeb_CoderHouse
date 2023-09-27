@@ -48,7 +48,7 @@
 /* fondo del la imagen del header */
 .back-img_huella {
     background-color: green;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .span-indicador {
@@ -264,51 +264,8 @@
     border-radius: 10px;
 }
 
-.map-ubicacion {
-    margin: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.redes {
-    width: 50px;
-    border: 2px solid beige;
-    background-color: beige;
-    border-radius: 50%;
-    box-shadow: 2px 5px 3px black;
-}
 
-.enlace-redes{
-    text-decoration-line: none;
-    border: 2px solid beige;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: bisque;
-    box-shadow: 2px 5px 3px black;
-}
-
-.redes-box{
-    border: 2px solid black;
-    padding: 10px 10px;
-    border-radius: 10px;
-    box-shadow: 2px 5px 3px black;
-    background-color: beige;
-}
-
-.contenedor-enlaces-img{
-    margin-top: 20px;
-}
-
-.caja-redes-ubi {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    margin: 10px;
-    border: 2px solid black;
-    box-shadow: 2px 5px 3px black;
-    border-radius: 10px;
-    background-color: green;
-}
 
 .img-huella-footer{
     height: 120px;
@@ -332,7 +289,7 @@
 }
 
 .textarea{
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
     margin: 10px 10px;
     resize: none;
     border-radius: 10px;
@@ -350,17 +307,6 @@
     padding: 10px;
 }
 
-/* .caja-btn-enviar{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    width: 200px;
-    padding: 10px;
-    background-color: greenyellow;
-    box-shadow: 2px 5px 3px green;
-    border-radius: 10px;
-    margin: 0 auto;
-} */
 
 .btn-enviar{
     margin: 0 auto;
@@ -375,7 +321,30 @@
     box-shadow: 2px 5px 3px black;
 }
 
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid yellow;
+    color: beige;
+    text-shadow: 2px 5px 3px black;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
     
+.seguinos-tx{
+    font-size: 4rem;
+    margin: 10px;
+}
+
+.redes-img{
+    width: 50px;
+    margin: 10px;   
+}
+
+
+
 
 
 
