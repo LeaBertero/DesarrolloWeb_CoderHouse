@@ -37,12 +37,11 @@
 }
 
 /* estilos del header */
-.principal {
+.principal{
     border: 10px solid greenyellow;
-    /* background-image: url(../imagenes/huella.jpg); */
-    /* width: 100%; */
     background-color: yellow;
     padding: 16px;
+    border-radius: 30px;
 }
 
 /* fondo del la imagen del header */
