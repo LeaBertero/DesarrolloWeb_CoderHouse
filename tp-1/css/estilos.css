@@ -155,11 +155,13 @@
 .servicios-title {
     border: 2px solid black;
     text-align: center;
-    margin: 30px auto;
+    margin: 40px auto;
     font-weight: bolder;
+    font-size: 3rem;
     text-transform: uppercase;
     text-shadow: 2px 5px 3px gray;
     width: 400px;
+    /* height: 10vh; */
     border-radius: 50%;
     padding: 1rem;
     box-shadow: 2px 5px 3px black;
@@ -203,13 +205,16 @@
 
 .instalaciones-title {
     border: 2px solid black;
-    width: 24rem;
-    text-align: center;
+    /* width: 24rem; */
+    width: 50%;
     margin: 0 auto;
+    text-align: center;
+    /* margin: 0 auto; */
     text-transform: uppercase;
     font-weight: bolder;
+    font-size: 3rem;
     border-radius: 50%;
-    padding: 1rem;
+    padding: 32px;
     box-shadow: 2px 5px 3px black;
     background-color: bisque;
     text-shadow: 2px 5px 3px gray;
