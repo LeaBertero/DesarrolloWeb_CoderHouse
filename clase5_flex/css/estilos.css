@@ -15,6 +15,9 @@
     /* column (columna vertical) */
     display: flex;
     flex-direction:column;
+
+    /* los elementos siempre van a estar en una unica fila */
+    flex-wrap: nowrap;
 }
 
 .caja{

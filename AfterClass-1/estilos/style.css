@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-caja{
+    border: 5px solid orangered;
+    /* padding: 20px; */
+    margin: 30px 30px;
+
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    background-color: teal;
+}
+
+.caja{
+    height: 500px;
+    width: 200px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 5px 3px red;
+    border-radius: 10px;
+    /* margin: 50px; */
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    margin: 10px;
+    
+
+}
