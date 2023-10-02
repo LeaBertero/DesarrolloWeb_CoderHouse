@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 2px solid black;
+    background-color: aqua;
+    height:15vh;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    /* gap: 10px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja{
+    border: 2px solid black;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* contenedor padre */
+.grilla-noticias{
+    display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   grid-template-rows: repeat(2, 300px);
+   gap: 20px;
+
+   border: 2px solid black;
+   /* paddin se aplica de forma interna */
+   padding: 0 10vw;
+}
+
+/* elementos hijos */
+.grilla-noticias article:nth-child(1){ /*nth-child() - psudoclases*/
+    background-color: red;
+    grid-row: span 2;
+
+}
+
+/* elementos hijos */
+.grilla-noticias article:nth-child(2){
+    background-color: orange;
+}
+
+/* elementos hijos */
+.grilla-noticias article:nth-child(3){
+    background-color: yellow;
+}
+
+/* elementos hijos */
+.grilla-noticias article:nth-child(4){
+    background-color:hotpink;
+}
+
+/* elementos hijos */
+.grilla-noticias article:nth-child(5){
+    background-color: fuchsia;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/* estilos para la seccion de ejemplo.html */
+
+/* contenedor padre */
+main{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-template-rows: repeat(2, 300px);
+    gap: 1rem;
+    grid-template-areas: "noticias aside";
+}
+
+.noticias{
+    background-color: cadetblue;
+}
+
+.info{
+    background-color: crimson;
+}
+
+aside{
+    background-color: darkgoldenrod;
+}
+
+
+    
