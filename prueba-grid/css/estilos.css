@@ -1,0 +1,37 @@
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    height: 98vh;
+    background-color: gray;
+    border: 2px solid black;
+    display: grid;
+
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.caja{
+    background-color: red;
+    border: 2px solid black;
+    font-size: 2rem;
+    /* grid-row: 1 /2; */
+    
+
+}
+
+.caja-posicionada{
+    background-color: aqua;
+    border: 2px solid black;
+    grid-column: 2 / 4g;
+    grid-row: 1 / 3;
+}
+
+
+
