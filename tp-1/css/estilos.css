@@ -254,7 +254,7 @@
 
 /* imagenes de productos en la seccion de productos */
 .ima-productos {
-    /* border: 2px solid black; */
+   
     border-radius: 10px;
     margin: 40px auto;
     display: flex;
@@ -266,8 +266,9 @@
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
-}
+} 
 
+/* imagenes de productos en la seccion de productos */
 
 
 
@@ -351,6 +352,7 @@
     width: 50px;
     margin: 10px;   
 }
+
 
 
 
