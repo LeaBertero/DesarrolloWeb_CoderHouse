@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grilla-areas{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    
+    grid-template-areas: 
+    "nav header"
+    "nav main"
+    "nav footer"
+    ;
+
+    gap: 5px;
+}
+
+header{
+    background-color: darkred;
+    grid-area: header;
+}
+
+nav{
+    background-color: blueviolet;
+    grid-area: nav;
+}
+
+footer{
+    background-color: mediumvioletred;
+    grid-area: footer;
+}
+
+main{
+
+    grid-area: main;
+    gap: 10px;
+
+    display: grid;
+
+    grid-template-columns:8fr 2fr;
+    grid-template-rows:repeat(2, 49%);
+
+    grid-template-areas: 
+    "noticias aside" /*representa una fila*/
+    "info aside";
+
+}
+
+.noticias{
+    background-color: cadetblue;
+    grid-area: noticias;
+}
+
+.info{
+    background-color: crimson;
+    grid-area: info;
+}
+
+aside{
+    background-color: darkgoldenrod;
+    grid-area: aside;
+   
+}
