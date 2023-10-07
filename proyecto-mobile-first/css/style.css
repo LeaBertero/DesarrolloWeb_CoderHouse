@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+ol,
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* header */
+
+header{
+    background-color: black;
+    color: white;
+
+    padding: 1rem;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+.active{
+    text-decoration: underline;
+}

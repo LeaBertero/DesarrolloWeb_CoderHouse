@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /*alineacion de items en conjunto*/
+    gap: 1rem;
+
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2;
+}
+
+@media (min-width: 600px) and (orientation:landscape){
+    
+    .contendor{
+        display: grid;
+    }
+    
+    .caja{
+        background-color: blue;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
