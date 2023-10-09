@@ -18,6 +18,10 @@ img {
     max-width: 100%;
 }
 
+html{
+    background-color: rgba(250, 169, 135, 0.336);
+}
+
 /* ---container */
 
 .container{
@@ -25,7 +29,9 @@ img {
     margin: 0 auto;
 }
 
-
+.header-wraper{
+    background-color: black;
+}
 
 /* header */
 header {
@@ -47,6 +53,18 @@ header nav ul li a {
     /*descenciendo en etiquetas*/
 }
 
+nav ul li a:hover{
+    text-decoration: underline;
+    /* font-size: 2rem; */
+    /* color: red; */
+    /* border: 2px solid lightblue; */
+    /* border-radius: 10px; */
+}
+
+.header-form{
+    display: none;
+}
+
 .active {
     text-decoration: underline;
 }
@@ -66,10 +84,29 @@ header nav ul li a {
 
 }
 
+@media (min-width: 768px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-form{
+        display: block;
+    }
+
+    header nav{
+        grid-column: span 2;
+    }
+
+    .nav-list{
+        justify-content: center; /*continuar la clase del 29/9 en el minuto 29/14seg*/
+    }
+}
+
 
 /* --- portada index --- */
 .portada {
-    padding: 1rem;
+    padding: 3rem 1rem;
 
     display: flex;
     /*como ya tiene display flex, no es necesario invocarlo de nuevo en el mq*/
@@ -82,11 +119,29 @@ header nav ul li a {
     text-align: center;
 }
 
+.portada-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .portada-boton {
     background-color: black;
     padding: 1rem 2rem;
     align-self: center;
     color: white;
+
+    display: inline-block;
+}
+
+.portada-boton:hover{
+    background-color: rgba(82, 80, 80, 0.451);
+    color: red;
+   
+
+    transform: scale(1.3); /*maximiza ssu tamaño*/
+    transition-duration:2s; /*duracion de transicion*/
+    border-radius: 10px;
 }
 
 @media (min-width: 768px) {
