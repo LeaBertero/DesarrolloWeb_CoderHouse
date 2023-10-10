@@ -135,12 +135,11 @@
     border-radius: 10px;
 }
 
-.lista-Ul {
+.lista-ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    /* font-weight: bolder; */
-    font-size: 1.2rem;
+    /* font-size: .2rem; */
     border: 5px solid green;
     padding: 16px;
     border-radius: 10px;
@@ -151,18 +150,23 @@
     font-weight: bolder;
     text-transform: uppercase;
     color: black;
+    text-shadow: 2px 5px 3px  gray;
+    font-size: 1.3rem;
+    /* background-color:antiquewhite; */
+    border-radius: 10px;
+    padding: 10px ;
     text-decoration-line: none;
 }
 
 /* efectos sobre los enlaces de  */
 .enlace:hover{
     text-decoration: underline;
-    background-color: black;
-    color: bisque;
+    background-color: antiquewhite;
+    color: black;
     padding: 5px 2px;
     border-radius: 10px;
-    
 }
+    
 
 
 
@@ -232,9 +236,9 @@
     box-shadow: 2px 5px 3px gray;
     background-color: bisque;
     text-shadow: 2px 5px 3px gray;
+}
     
   
-}
 
 .producto-title {
     display: flex;
@@ -246,18 +250,6 @@
     padding: 1rem;
     text-shadow: 2px 5px 3px gray;
     box-shadow: 2px 5px 3px gray;    
-    /* text-align: center;
-    padding: 1rem;
-    border: 2px solid black;
-    width: 48rem;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 2px 5px 3px black;
-    text-transform: uppercase;
-    text-shadow: 2px 5px 3px gray;
-    background-color: bisque;
-    font-weight: bolder;
-    font-size: 5rem; */
 }
 
 .instalaciones-img {
@@ -295,7 +287,7 @@
 /* imagenes de productos en la seccion de productos */
 
 
-
+/* imagen de huella en el footer */
 .img-huella-footer{
     height: 120px;
     border-radius: 50%;
@@ -353,8 +345,8 @@
 /* FOOTER */
 .footer{
     display: flex;
-    justify-content: space-around;
-    border: 5px solid yellow;
+    justify-content: space-between;
+    border: 10px solid yellow;
     color: beige;
     text-shadow: 2px 5px 3px black;
     padding: 10px;
