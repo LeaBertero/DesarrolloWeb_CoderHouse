@@ -7,12 +7,26 @@
     font-family: 'Abril Fatface', cursive;
 }   
 
+/* ESTILOS PAGINA PRINCIPAL */
+
 /* color de fondo de todo el html */
 .back-color {
     background-color: greenyellow;
 }
 
 /* titulo principal del index */
+.principal{
+    border: 10px solid greenyellow;
+    background-color: yellow;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.back-img_huella {
+    background-color: green;
+    padding: 1rem;
+}
+
 .titulo-index {
     display: flex;
     justify-content: center;
@@ -30,7 +44,7 @@
     border-radius: 10px;
     
     background-color: greenyellow;
-    box-shadow: 2px 5px 3px black;
+    box-shadow: 2px 5px 3px gray;
         
 }
 
@@ -45,18 +59,9 @@
 }   
 
 /* estilos del header */
-.principal{
-    border: 10px solid greenyellow;
-    background-color: yellow;
-    padding: 16px;
-    border-radius: 30px;
-}
 
 /* fondo del la imagen del header */
-.back-img_huella {
-    background-color: green;
-    padding: 1rem;
-}
+
 
 /* imgen de la huella */
 .img-huella {
@@ -82,20 +87,18 @@
 }
 
 .servicios-title {
-    border: 2px solid black;
-    text-align: center;
-    margin: 40px auto;
-    font-weight: bolder;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-shadow: 2px 5px 3px gray;
-    width: 400px;
-    /* height: 10vh; */
-    border-radius: 50%;
-    padding: 1rem;
-    box-shadow: 2px 5px 3px black;
-    background-color: bisque;
+   display: flex;
+   justify-content: center;
+   padding: 2rem;
+   background-color: bisque;
+   box-shadow: 2px 5px 3px gray;
+   text-shadow: 2px 5px 3px gray;
+   border-radius: 10px;
+   margin: 50px 0px;
+   font-size: 3rem;
+   text-transform: uppercase;
 }
+    
 
 .box-img_servicios {
     display: flex;
@@ -110,21 +113,26 @@
 }
 
 .nosostros-title{
-    text-align: center;
-    border: 2px solid beige;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 5px 3px gray;
+    /* text-align: center; */
+    /* border: 2px solid beige; */
     border-radius: 10px;
-    padding: 30px;
+    padding: 30px 10px;
     background-color: bisque;
     box-shadow: 2px 5px 3px gray;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
     /* margin: 0 auto; */
     /* width: 250px; */
 }
 
 .nav-index {
-    padding:10px;
+    padding:20px;
     margin: 20px ;
     background-color: greenyellow;
+    border-radius: 10px;
 }
 
 .lista-Ul {
@@ -221,21 +229,24 @@
     font-weight: bolder;
     font-size: 3rem;
     border-radius: 10px;
-    box-shadow: 2px 5px 3px black;
+    box-shadow: 2px 5px 3px gray;
     background-color: bisque;
     text-shadow: 2px 5px 3px gray;
     
-    /* padding: 32px; */
-    /* border: 2px solid black; */
-    /* width: 24rem; */
-    /* width: 10px; */
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
+  
 }
 
 .producto-title {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 1rem;
+    text-shadow: 2px 5px 3px gray;
+    box-shadow: 2px 5px 3px gray;    
+    /* text-align: center;
     padding: 1rem;
     border: 2px solid black;
     width: 48rem;
@@ -246,7 +257,7 @@
     text-shadow: 2px 5px 3px gray;
     background-color: bisque;
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 5rem; */
 }
 
 .instalaciones-img {
