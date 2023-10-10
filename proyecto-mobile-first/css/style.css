@@ -248,3 +248,7 @@ footer{
     border: 5px solid white;
     border-radius: 10px;
 }
+
+.footer-redes ul li a{
+    /* continiar diseñando el footer en el video de responsive */
+}
