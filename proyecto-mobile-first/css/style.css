@@ -116,7 +116,7 @@ nav ul li a:hover{
 /* breackpoint a los 1200px */
 @media (min-width: 1200px){
     header{
-        display: ;
+        display:flex;
     }
 }
 
