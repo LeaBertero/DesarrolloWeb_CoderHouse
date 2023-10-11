@@ -251,11 +251,21 @@ footer{
     padding: 1rem;
 }
 
+.footer-copy{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin-top: 1rem;   
+}
+
 .footer-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.4rem;
+
+    border-bottom: 1px solid white;
+    
 }
 
 .footer-wrapper h4{
@@ -264,6 +274,7 @@ footer{
     text-shadow: 2px 5px 3px black;
     padding: 1rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .footer-wrapper h4,
@@ -294,5 +305,18 @@ footer{
 
 .footer-redes ul li a i{
     font-size: 1.3rem;
+}
+
+@media (min-width:768px){
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+
+    .footer-newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
