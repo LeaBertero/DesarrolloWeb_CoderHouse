@@ -245,6 +245,11 @@ nav ul li a:hover{
     
 }
 
+/* ---- Mapa index ---- */
+.map-wrapper iframe{
+    width: 100%;
+}
+
 /* ---- footer ---- */
 footer{
     background-color: gray;
