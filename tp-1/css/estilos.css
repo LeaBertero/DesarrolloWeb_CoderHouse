@@ -18,7 +18,7 @@
 .principal{
     border: 10px solid greenyellow;
     background-color: yellow;
-    padding: 16px;
+    padding: 10px;
     border-radius: 30px;
 }
 
@@ -112,13 +112,10 @@
     text-align: center;
 }
 
-
 .map-contenedor iframe{
     width: 100%;
     border-radius: 10px;
 }
-
-
 
 .ubicacion-title{
     display: flex;
@@ -216,10 +213,7 @@
 .servicios_seccion {
     display: flex;
     justify-content: space-between;
-
 }
-
-
 
 
 .instalaciones-title {
@@ -342,6 +336,7 @@
     justify-content: space-around;
     border: 10px solid yellow;
     background-color: green;
+    border-radius: 10px;
     
 }
 
@@ -357,14 +352,14 @@
 .box-redesImg{
     display: flex;
     flex-direction: row;
-    gap: 1.2rem;  
+    gap: 1.4rem;  
 }
 
 .seguinos-tx{
     padding: 10px;
     display: flex;
     justify-content: center;
-    color: beige; 
+    color:antiquewhite; 
     font-size: 2.4rem;
     margin: 10px;
     text-shadow: 2px 5px 3px black;
@@ -376,7 +371,7 @@
 .redes-img{
     box-shadow: 2px 5px 3px beige;
     border-radius: 50%;
-    width: 50px;
+    width: 60px;
     margin-top: 40px;   
 }
 
