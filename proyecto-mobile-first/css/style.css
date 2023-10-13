@@ -61,6 +61,10 @@ nav ul li a:hover{
     /* border-radius: 10px; */
 }
 
+header form{
+    display: none;
+}
+
 .header-form{
     display: none;
 }
@@ -81,6 +85,34 @@ nav ul li a:hover{
         display: flex;
         gap: 1rem;
     }
+
+}
+
+@media (min-width: 768px){
+    
+    header{
+        display: grid;
+
+    }
+
+    .header-form{
+        display:block;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header nav{
+        grid-column: span 2;
+    }
+
+    .nav-list{
+        justify-content: center;
+    }
+
+    header h1{
+        text-align: start;
+    }
+
+    
 
 }
 
