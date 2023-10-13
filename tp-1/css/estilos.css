@@ -5,7 +5,7 @@
     box-sizing: border-box;
     /* font-family: 'Lobster'; */
     font-family: 'Abril Fatface', cursive;
-}   
+}
 
 /* ESTILOS PAGINA PRINCIPAL */
 
@@ -40,7 +40,7 @@
     border-radius: 10px;
     padding: 10px;
     background-color: greenyellow;
-        
+
 }
 
 /* .titulo-index:hover{
@@ -49,14 +49,15 @@
 
 /* subtitulo del header */
 .subtitulo-pet {
-    margin: 25rem;
+    margin: 1rem 25rem;
     border-radius: 10px;
-    border: 4px solid yellow;
+    border: 1px solid yellow;
     text-transform: uppercase;
     font-weight: bolder;
+    /* padding: 1rem; */
     font-size: 1.8rem;
     color: greenyellow;
-}   
+}
 
 /* estilos del header */
 
@@ -66,7 +67,7 @@
 /* imgen de la huella */
 .img-huella {
     width: 200px;
-    margin: 2px 0px 0px 560px;
+    margin: 5px 0px 0px 560px;
     box-shadow: 2px 5px 3px black;
     border: 2px solid black;
     border-radius: 50%;
@@ -74,8 +75,20 @@
     background: linear-gradient(to top left, orange, green, lightblue);
 }
 
-.span-indicador {
+.contenedor-span{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 70rem;
+}
+    
+
+
+
+.span-indicador {
+    margin: 15px 500px;
+    text-align: center;
+    width: 20rem;
     font-size: 1.3rem;
     background-color: antiquewhite;
     text-transform: uppercase;
@@ -85,6 +98,8 @@
     padding: 4px;
     border: 2px solid black;
 }
+
+
 
 .servicios-title {
    display: flex;
@@ -98,7 +113,7 @@
    font-size: 3rem;
    text-transform: uppercase;
 }
-    
+
 
 .box-img_servicios {
     display: flex;
@@ -171,7 +186,7 @@
     border-radius: 10px;
     box-shadow: 2px 5px 3px green;
 }
-    
+
 
 
 
@@ -231,8 +246,8 @@
     background-color: bisque;
     text-shadow: 2px 5px 3px gray;
 }
-    
-  
+
+
 
 .producto-title {
     display: flex;
@@ -243,7 +258,7 @@
     border-radius: 10px;
     padding: 1rem;
     text-shadow: 2px 5px 3px gray;
-    box-shadow: 2px 5px 3px gray;    
+    box-shadow: 2px 5px 3px gray;
 }
 
 .instalaciones-img {
@@ -268,7 +283,7 @@
 
 /* imagenes de productos en la seccion de productos */
 .ima-productos {
-   
+
     border-radius: 10px;
     margin: 40px auto;
     display: flex;
@@ -280,7 +295,7 @@
     width: 300px;
     margin: 0 auto;
     border-radius: 10px;
-} 
+}
 
 /* imagenes de productos en la seccion de productos */
 
@@ -295,7 +310,7 @@
     box-shadow: 2px 5px 3px black;
     text-transform: uppercase;
     font-weight: bolder;
-    line-height: 5px;   
+    line-height: 5px;
     border: 2px solid black;
     width: 450px;
 }
@@ -309,8 +324,8 @@
 }
 
 .caja-datos{
-    padding: 10px;  
-    margin: 0 0 auto 0px;  
+    padding: 10px;
+    margin: 0 0 auto 0px;
 }
 
 .input-reg{
@@ -340,7 +355,7 @@
     border: 10px solid yellow;
     background-color: green;
     border-radius: 10px;
-    
+
 }
 
 /* imagen de huella en el footer */
@@ -355,19 +370,19 @@
 .box-redesImg{
     display: flex;
     flex-direction: row;
-    gap: 1.4rem;  
+    gap: 1.4rem;
 }
 
 .seguinos-tx{
     padding: 10px;
     display: flex;
     justify-content: center;
-    color:antiquewhite; 
+    color:antiquewhite;
     font-size: 2.4rem;
     margin: 10px;
     text-shadow: 2px 5px 3px black;
     margin: 30px 0 0 0;
-    text-align: center; 
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -375,7 +390,7 @@
     box-shadow: 2px 5px 3px beige;
     border-radius: 50%;
     width: 60px;
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 
@@ -391,5 +406,4 @@
 
 
 
-    
-    
+
