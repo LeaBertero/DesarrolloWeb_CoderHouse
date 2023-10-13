@@ -43,6 +43,10 @@
         
 }
 
+/* .titulo-index:hover{
+    transform: scale(1);
+} */
+
 /* subtitulo del header */
 .subtitulo-pet {
     margin: 25rem;
@@ -159,10 +163,13 @@
 /* efectos sobre los enlaces de  */
 .enlace:hover{
     text-decoration: underline;
-    background-color: antiquewhite;
     color: black;
-    padding: 5px 2px;
+    background-color: yellow;
+    text-shadow: 2px 5px 3px white;
+    /* transform: scale(4); */
+    border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 2px 5px 3px green;
 }
     
 
