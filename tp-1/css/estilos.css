@@ -273,22 +273,21 @@
 }
 
 .img-inst {
-    /* width: 52vh; */
     width: 400px;
-    height: 300px;
     border-radius: 10px;
-    /* display: inline; */
-    /* width: 22rem; */
+    height: 300px;
 }
-
+    
 /* imagenes de productos en la seccion de productos */
+  
 .ima-productos {
-
     border-radius: 10px;
     margin: 40px auto;
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .prod-img {
     box-shadow: 2px 5px 3px black;
@@ -325,12 +324,11 @@
 
 .caja-datos{
     padding: 10px;
-    margin: 0 0 auto 0px;
+    margin:0 auto;
 }
 
 .input-reg{
     border-radius: 10px;
-    /* margin: 10px auto; */
     padding: 10px;
 }
 
