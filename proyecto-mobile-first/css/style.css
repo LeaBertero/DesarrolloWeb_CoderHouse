@@ -55,10 +55,6 @@ header nav ul li a {
 
 nav ul li a:hover{
     text-decoration: underline;
-    /* font-size: 2rem; */
-    /* color: red; */
-    /* border: 2px solid lightblue; */
-    /* border-radius: 10px; */
 }
 
 header form{
