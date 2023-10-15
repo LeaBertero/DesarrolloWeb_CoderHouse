@@ -15,7 +15,7 @@
 }
 
 /* titulo principal del index */
-.principal{
+.portada-principal{
     border: 10px solid greenyellow;
     background-color: yellow;
     padding: 10px;
@@ -302,8 +302,8 @@
 
 /* estilos para el formulario de la seccion registro */
 .caja-formulario{
-    margin: 30px auto;
-    padding: 5px;
+    margin: 10px auto;
+    padding: 10px 30px;
     border-radius: 10px;
     background-color: beige;
     box-shadow: 2px 5px 3px black;
@@ -314,12 +314,26 @@
     width: 450px;
 }
 
-.textarea{
-    /* padding: 30px 10px; */
+/* .textarea{
+    padding: 30px 10px;
     margin: 10px 10px;
-    resize: none;
-    border-radius: 10px;
+    resize: none;    ( - para que no se pueda modificar su tamaño - )
     box-shadow: 2px 5px 3px black;
+} */
+
+form .caja-datos input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.caja-datos label{
+    padding-right: 20px;
+}
+
+.Textarea{
+    resize: none;
+    padding: 30px auto;
+    border-radius: 10px;
 }
 
 .caja-datos{
@@ -389,6 +403,12 @@
     border-radius: 50%;
     width: 60px;
     margin-top: 40px;
+}
+
+
+/* responsive mq de todo el proyecto */
+@media (min-width: 768px){
+    
 }
 
 
