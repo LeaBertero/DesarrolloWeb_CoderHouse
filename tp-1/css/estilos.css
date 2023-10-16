@@ -15,6 +15,7 @@
 }
 
 /* titulo principal del index */
+/**** estilos del header ****/
 .portada-principal{
     border: 10px solid greenyellow;
     background-color: yellow;
@@ -48,7 +49,6 @@
 
 /* subtitulo del header */
 .subtitulo-pet {
-    margin: 1rem 25rem;
     border-radius: 10px;
     border: 1px solid yellow;
     text-transform: uppercase;
@@ -56,31 +56,18 @@
     /* padding: 1rem; */
     font-size: 1.8rem;
     color: greenyellow;
+    margin: 1rem 25rem;
 }
 
-/* estilos del header */
-
-/* fondo del la imagen del header */
-
-
-/* imgen de la huella */
-.img-huella {
-    width: 200px;
-    margin: 5px 0px 0px 560px;
-    box-shadow: 2px 5px 3px black;
-    border: 2px solid black;
-    border-radius: 50%;
-    padding: .5rem;
-    background: linear-gradient(to top left, orange, green, lightblue);
-}
-
+/* contenedor del subtitulo span */
 .contenedor-span{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     width: 70rem;
 }
-    
+
 .span-indicador {
     margin: 15px 500px;
     text-align: center;
@@ -95,6 +82,19 @@
     border: 2px solid black;
 }
 
+/* estilos para la unagen de la huella del header */
+/* imgen de la huella */
+.img-huella {
+    width: 200px;
+    margin: 5px 0px 0px 560px;
+    box-shadow: 2px 5px 3px black;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: .5rem;
+    background: linear-gradient(to top left, orange, green, lightblue);
+}
+
+/* fondo del la imagen del header */
 .servicios-title {
    display: flex;
    justify-content: center;
@@ -123,6 +123,7 @@
     text-transform: uppercase;
 }   
 
+/* seccion nosotros */
 .nosotros-contenedor{
     border: 1px solid green;
     border-radius: 10px;
@@ -130,17 +131,20 @@
     box-shadow: 2px 5px 3px green;
 }
 
+/* seccion nosotros */
 .parrafo-nosotros{
     font-size: 1.2rem;
     font-family: sans-serif;
     line-height: 30px;
 }
 
+/* mapa de nosotros - donde podes encontrarnos */
 .map-contenedor iframe{
     width: 100%;
     border-radius: 10px;
 }
 
+/* mapa de ubicacion */
 .ubicacion-title{
     display: flex;
     justify-content: center;
@@ -154,6 +158,7 @@
     text-transform: uppercase;
 }
 
+/* enlaces del menu de navegacion */
 .nav-index {
     padding:20px;
     margin: 20px ;
@@ -161,6 +166,7 @@
     /* border-radius: 10px; */
 }
 
+/* lista */
 .lista-ul {
     display: flex;
     justify-content: space-between;
@@ -172,6 +178,7 @@
     background-color: greenyellow;
 }
 
+/* enlaces */
 .enlace {
     font-weight: bolder;
     text-transform: uppercase;
@@ -195,9 +202,6 @@
     border-radius: 10px;
     box-shadow: 2px 5px 3px green;
 }
-
-
-
 
 /* caja de texto del titulo de registro */
 .titulo-contacto {
@@ -314,8 +318,6 @@
     margin: 2rem;
     display: flex;
     justify-content: space-between;
-    /* gap: 2rem; */
-    /* padding: 10px; */
 }
 
 /* borde para el contenedor de imagenes del proyecto de la secccion de instalaciones */
@@ -334,24 +336,26 @@
     
 /* imagenes de productos en la seccion de productos */
   
-.ima-productos {
-    border-radius: 10px;
-    margin: 40px auto;
+/* contenedor de imagenes de la seccion productos */
+.img-productos {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 2px 5px 3px green;
+    background-color: white;
 }
 
 
-
+/* imagenes de los productos del contenedor */
 .prod-img {
-    box-shadow: 2px 5px 3px black;
-    width: 300px;
-    margin: 0 auto;
+    box-shadow: 2px 5px 3px gray;
+    width: 15%;
+    margin: 10px auto;
     border-radius: 10px;
 }
-
-/* imagenes de productos en la seccion de productos */
-
 
 
 /* estilos para el formulario de la seccion registro */
@@ -363,28 +367,18 @@
     box-shadow: 2px 5px 3px black;
     text-transform: uppercase;
     font-weight: bolder;
-    /* line-height: 2px; */
     border: 2px solid black;
     width: 450px;
 }
 
-/* .textarea{
-    padding: 30px 10px;
-    margin: 10px 10px;
-    resize: none;    ( - para que no se pueda modificar su tamaño - )
-    box-shadow: 2px 5px 3px black;
-} */
 
 form .caja-datos input{
     border-radius: 10px;
-    /* padding: 5px; */
     padding: 10px;
     margin-left: 20px;
-    
 }
 
 .caja-datos label{
-    /* padding: 25px; */
     letter-spacing: 2px;
     background-color: greenyellow;
     border-radius: 10px;    
@@ -399,10 +393,10 @@ form .caja-datos input{
 }
 
 .caja-datos{
-    
     padding: 10px;
     margin:0 auto;
 }
+    
 
 .input-reg{
     border-radius: 10px;
