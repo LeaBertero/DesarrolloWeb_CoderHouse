@@ -7,30 +7,27 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-/* ESTILOS PAGINA PRINCIPAL */
 
-/* color de fondo de todo el html */
+
+/* ********* HEADER **************/
 .back-color {
     background-color: greenyellow;
 }
 
-/* titulo principal del index */
-/**** estilos del header ****/
-.portada-principal{
+.portada-header{
     border: 10px solid greenyellow;
     background-color: yellow;
     padding: 10px;
     border-radius: 10px;
 }
 
-/* imagen de huella */
 .back-img_huella {
     background-color: green;
     padding: 1rem;
 }
 
-/* titulo pagina principal */
-.titulo-index {
+/* imagen de huella */
+.titulo-principal {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -43,33 +40,45 @@
     background-color: greenyellow;
 }
 
-/* .titulo-index:hover{
-    transform: scale(1);
-} */
-
-/* subtitulo del header */
-.subtitulo-pet {
-    border-radius: 10px;
-    border: 1px solid yellow;
-    text-transform: uppercase;
-    font-weight: bolder;
-    /* padding: 1rem; */
-    font-size: 1.8rem;
-    color: greenyellow;
-    margin: 1rem 25rem;
-}
-
-/* contenedor del subtitulo span */
 .contenedor-span{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 70rem;
+    /* width: 70rem; */
 }
 
-.span-indicador {
-    margin: 15px 500px;
+.subtitulo-pet {
+    border-radius: 10px;
+    border: 1px solid yellow;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .5rem;
+    font-size: 1.8rem;
+    color: greenyellow;
+    margin: 1rem 25rem;
+}
+
+.portada-huella{
+    display: flex;
+    justify-content: center;
+}
+
+.img-huella {
+    width: 200px;
+    box-shadow: 2px 5px 3px greenyellow;
+    /* margin: 5px 0px 0px 560px; */
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+    background: linear-gradient(to top left, orange, green, lightblue);
+}
+
+/* span que esta debajo de la imagen de la huella de portada del header */
+.span-indicador span {
+    margin: 20px 550px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 20rem;
     font-size: 1.3rem;
@@ -78,21 +87,59 @@
     font-weight: bolder;
     box-shadow: 2px 5px 3px greenyellow;
     border-radius: 1rem;
-    padding: 4px;
+    padding: 10px;
     border: 2px solid black;
 }
 
-/* estilos para la unagen de la huella del header */
-/* imgen de la huella */
-.img-huella {
-    width: 200px;
-    margin: 5px 0px 0px 560px;
-    box-shadow: 2px 5px 3px black;
-    border: 2px solid black;
-    border-radius: 50%;
-    padding: .5rem;
-    background: linear-gradient(to top left, orange, green, lightblue);
+/* CONTENEDOR DEL MENU DE NAVEGACION (UL (LISTA DESORDENADA)) */
+.nav-index {
+    padding:20px;
+    margin: 20px ;
+    background-color: greenyellow;
 }
+
+/* lista */
+.lista-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* font-size: .2rem; */
+    border: 5px solid green;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+/* ENLACES DEL MENU */
+.enlace {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 2px 5px 3px  gray;
+    font-size: 1.3rem;
+    /* background-color:antiquewhite; */
+    border-radius: 10px;
+    padding: 10px ;
+    text-decoration-line: none;
+}
+
+
+
+/* *************** FINAL DEL HEADER ****************************/
+
+
+/* ***********MEDIA QUERIES DEL HEADER*********** */
+/* ACA VAN LOS MEDIA QUERIES */
+
+/* ***********MEDIA QUERIES DEL HEADER*********** */
+
+
+/* *************** ESTILOS DEL MAIN ***********************/
+
+
+
+/* ******** FINAL DEL MAIN ************** */
+
 
 /* fondo del la imagen del header */
 .servicios-title {
@@ -159,38 +206,13 @@
     text-transform: uppercase;
 }
 
-/* enlaces del menu de navegacion */
-.nav-index {
-    padding:20px;
-    margin: 20px ;
-    background-color: greenyellow;
-    /* border-radius: 10px; */
-}
 
-/* lista */
-.lista-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    /* font-size: .2rem; */
-    border: 5px solid green;
-    padding: 16px;
-    border-radius: 10px;
-    background-color: greenyellow;
-}
+    
+
+
 
 /* enlaces */
-.enlace {
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: black;
-    text-shadow: 2px 5px 3px  gray;
-    font-size: 1.3rem;
-    /* background-color:antiquewhite; */
-    border-radius: 10px;
-    padding: 10px ;
-    text-decoration-line: none;
-}
+
 
 /* efectos sobre los enlaces de  */
 .enlace:hover{
