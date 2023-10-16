@@ -19,9 +19,6 @@
     background-color: yellow;
     padding: 10px;
     border-radius: 10px;
-}
-
-.back-img_huella {
     background-color: green;
     padding: 1rem;
 }
@@ -45,7 +42,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* width: 70rem; */
 }
 
 .subtitulo-pet {
@@ -132,7 +128,7 @@
 /* ACA VAN LOS MEDIA QUERIES */
 
 @media (min-width: 480px){
-    
+  
 }
 
 /* ***********MEDIA QUERIES DEL HEADER*********** */
@@ -155,19 +151,17 @@
 }
 
 .instalaciones-img {
-    border-radius: 10px;
-    margin: 2rem;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+    margin: 2rem;
     background-color: white;
+    padding: 1rem;
+    box-shadow: 2px 5px 3px gray;
 }
 
 
-.border-instalaciones{
-    border: 1px solid green;
-    padding: 10px;
-    box-shadow: 2px 5px 3px green;
-}
+
 
 
 .img-inst {
@@ -240,36 +234,6 @@
    font-size: 3rem;
    text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ******** FINAL DEL MAIN ************** */
@@ -426,10 +390,6 @@
     justify-content: space-between;
 }
 
-
-
-
-
 .producto-title {
     display: flex;
     justify-content: center;
@@ -442,19 +402,7 @@
     box-shadow: 2px 5px 3px gray;
 }
 
-/* contenedor de images de las instalaciones del local */
 
-/* .instalaciones-img {
-} */
-
-
-
-/* borde para el contenedor de imagenes del proyecto de la secccion de instalaciones */
-
-
-
-    
-/* imagenes de productos en la seccion de productos */
   
 /* contenedor de imagenes de la seccion productos */
 .img-productos {
