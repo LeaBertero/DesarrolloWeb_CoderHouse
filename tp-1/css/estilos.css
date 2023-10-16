@@ -76,9 +76,9 @@
 
 /* span que esta debajo de la imagen de la huella de portada del header */
 .span-indicador span {
-    margin: 20px 550px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin: 20px 550px;
     text-align: center;
     width: 20rem;
     font-size: 1.3rem;
@@ -131,17 +131,111 @@
 /* ***********MEDIA QUERIES DEL HEADER*********** */
 /* ACA VAN LOS MEDIA QUERIES */
 
+@media (min-width: 480px){
+    
+}
+
 /* ***********MEDIA QUERIES DEL HEADER*********** */
 
 
 /* *************** ESTILOS DEL MAIN ***********************/
 
+.instalaciones-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    /* padding: 10px; */
+    font-size: 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px gray;
+    background-color: bisque;
+    text-shadow: 2px 5px 3px gray;
+}
+
+.instalaciones-img {
+    border-radius: 10px;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
 
 
-/* ******** FINAL DEL MAIN ************** */
+.border-instalaciones{
+    border: 1px solid green;
+    padding: 10px;
+    box-shadow: 2px 5px 3px green;
+}
 
 
-/* fondo del la imagen del header */
+.img-inst {
+    /* gap: 2rem; */
+    width: 400px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+
+/* *************** FIN DE ESTILOS DEL MAIN ***********************/
+
+
+/* *********** FOOTER *************** */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid yellow;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.img-huella-footer{
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(to top left, orange, green, lightblue);
+    padding: 8px;
+    margin: 10px;
+}
+
+.seguinos-tx{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color:antiquewhite;
+    font-size: 2.4rem;
+    margin: 10px;
+    text-shadow: 2px 5px 3px black;
+    margin: 30px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-redesImg{
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+.redes-img{
+    box-shadow: 2px 5px 3px beige;
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 40px;
+}
+
+/* *********** FIN FOOTER *************** */
+
+
+
+
+
+
+
+
+
 .servicios-title {
    display: flex;
    justify-content: center;
@@ -154,6 +248,33 @@
    font-size: 3rem;
    text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******** FINAL DEL MAIN ************** */
+
+
+/* fondo del la imagen del header */
 
 
 /* seccion nosotros */
@@ -304,19 +425,7 @@
     justify-content: space-between;
 }
 
-.instalaciones-title {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    /* padding: 10px; */
-    font-size: 3rem;
-    border-radius: 10px;
-    box-shadow: 2px 5px 3px gray;
-    background-color: bisque;
-    text-shadow: 2px 5px 3px gray;
-}
+
 
 
 
@@ -337,27 +446,12 @@
 /* .instalaciones-img {
 } */
 
-.instalaciones-img {
-    border-radius: 10px;
-    margin: 2rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-}
+
 
 /* borde para el contenedor de imagenes del proyecto de la secccion de instalaciones */
-.border-instalaciones{
-    border: 1px solid green;
-    padding: 10px;
-    box-shadow: 2px 5px 3px green;
-}
 
-.img-inst {
-    /* gap: 2rem; */
-    width: 400px;
-    border-radius: 10px;
-    height: 300px;
-}
+
+
     
 /* imagenes de productos en la seccion de productos */
   
@@ -443,55 +537,18 @@ form .caja-datos input{
 }
 
 /* FOOTER */
-.footer{
-    display: flex;
-    justify-content: space-around;
-    border: 10px solid yellow;
-    background-color: green;
-    border-radius: 10px;
 
-}
 
 /* imagen de huella en el footer */
-.img-huella-footer{
-    height: 120px;
-    border-radius: 50%;
-    background: linear-gradient(to top left, orange, green, lightblue);
-    padding: 8px;
-    margin: 10px;
-}
-
-.box-redesImg{
-    display: flex;
-    flex-direction: row;
-    gap: 1.4rem;
-}
-
-.seguinos-tx{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    color:antiquewhite;
-    font-size: 2.4rem;
-    margin: 10px;
-    text-shadow: 2px 5px 3px black;
-    margin: 30px 0 0 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.redes-img{
-    box-shadow: 2px 5px 3px beige;
-    border-radius: 50%;
-    width: 60px;
-    margin-top: 40px;
-}
 
 
-/* responsive mq de todo el proyecto */
-@media (min-width: 768px){
-    
-}
+
+
+
+
+
+
+
 
 
 
