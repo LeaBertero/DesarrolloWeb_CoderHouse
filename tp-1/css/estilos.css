@@ -40,7 +40,6 @@
     border-radius: 10px;
     padding: 10px;
     background-color: greenyellow;
-
 }
 
 /* .titulo-index:hover{
@@ -82,7 +81,6 @@
     width: 70rem;
 }
     
-
 .span-indicador {
     margin: 15px 500px;
     text-align: center;
@@ -96,8 +94,6 @@
     padding: 4px;
     border: 2px solid black;
 }
-
-
 
 .servicios-title {
    display: flex;
@@ -113,11 +109,31 @@
 }
 
 
-
-
 /* seccion nosotros */
-.nosostros {
-    text-align: center;
+.nosotros-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: bisque;
+    box-shadow: 2px 5px 3px gray;
+    text-shadow: 2px 5px 3px gray;
+    border-radius: 10px;
+    margin: 50px 0px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}   
+
+.nosotros-contenedor{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 3px green;
+}
+
+.parrafo-nosotros{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 30px;
 }
 
 .map-contenedor iframe{
@@ -223,6 +239,7 @@
     justify-content: space-between;
     margin: 10px auto;
     border: 1px solid green;
+    box-shadow: 2px 5px 3px green;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -245,6 +262,7 @@
     display: flex;
     justify-content: space-between;
     /* gap: 2px; */
+    border-radius: 10px;
 }
 
 /* imagenes de la seccion servicios */
@@ -257,10 +275,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
-
-    
 
 .instalaciones-title {
     display: flex;
@@ -290,19 +304,29 @@
     box-shadow: 2px 5px 3px gray;
 }
 
-.instalaciones-img {
-    border-radius: 10px;
-    margin-top: 2rem;
-}
+/* contenedor de images de las instalaciones del local */
+
+/* .instalaciones-img {
+} */
 
 .instalaciones-img {
+    border-radius: 10px;
+    margin: 2rem;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    /* gap: 2rem; */
+    /* padding: 10px; */
+}
+
+/* borde para el contenedor de imagenes del proyecto de la secccion de instalaciones */
+.border-instalaciones{
+    border: 1px solid green;
     padding: 10px;
+    box-shadow: 2px 5px 3px green;
 }
 
 .img-inst {
+    /* gap: 2rem; */
     width: 400px;
     border-radius: 10px;
     height: 300px;
@@ -339,7 +363,7 @@
     box-shadow: 2px 5px 3px black;
     text-transform: uppercase;
     font-weight: bolder;
-    line-height: 5px;
+    /* line-height: 2px; */
     border: 2px solid black;
     width: 450px;
 }
@@ -353,9 +377,10 @@
 
 form .caja-datos input{
     border-radius: 10px;
-    padding: 5px;
+    /* padding: 5px; */
     padding: 10px;
     margin-left: 20px;
+    
 }
 
 .caja-datos label{
@@ -374,6 +399,7 @@ form .caja-datos input{
 }
 
 .caja-datos{
+    
     padding: 10px;
     margin:0 auto;
 }
