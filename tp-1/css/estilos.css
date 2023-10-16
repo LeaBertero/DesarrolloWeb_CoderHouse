@@ -129,6 +129,7 @@
     border-radius: 10px;
     padding: 10px;
     box-shadow: 2px 5px 3px green;
+    background-color: white;
 }
 
 /* seccion nosotros */
@@ -245,6 +246,7 @@
     border: 1px solid green;
     box-shadow: 2px 5px 3px green;
     padding: 1rem;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -318,6 +320,7 @@
     margin: 2rem;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 /* borde para el contenedor de imagenes del proyecto de la secccion de instalaciones */
