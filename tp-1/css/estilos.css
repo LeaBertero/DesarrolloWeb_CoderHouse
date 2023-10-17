@@ -39,9 +39,15 @@
 
 .contenedor-span{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
     text-align: center;
+}
+
+.contenedor-span span{
+    color:white;
+    font-size: 3.5rem;
+    text-shadow: 2px 5px 3px black;
 }
 
 .subtitulo-pet {
@@ -58,6 +64,9 @@
 .portada-huella{
     display: flex;
     justify-content: center;
+    /* background-image: url(../imagenes/huella.jpg); */
+    background-position: center;
+    /* border-radius: 50%; */
 }
 
 .img-huella {
@@ -107,12 +116,18 @@
     background-color: greenyellow;
 }
 
+.lista-ul li a{
+    color: white;
+    font-size: 1.6rem;
+    /* text-shadow: black; */
+}
+
 /* ENLACES DEL MENU */
 .enlace {
     font-weight: bolder;
     text-transform: uppercase;
     color: black;
-    text-shadow: 2px 5px 3px  gray;
+    text-shadow: 2px 5px 3px  black;
     font-size: 1.3rem;
     /* background-color:antiquewhite; */
     border-radius: 10px;
