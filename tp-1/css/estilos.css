@@ -283,16 +283,26 @@
 
 /* seccion nosotros */
 .nosotros-contenedor{
-    border: 1px solid green;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 2px 5px 3px green;
-    background-color: white;
+    box-shadow: 2px 5px 3px black;
+    background-image: url(../imagenes/perro-ramita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    margin: 20px;
 }
+
+
 
 /* seccion nosotros */
 .parrafo-nosotros{
+    opacity: 60%;
+    padding: 30px;
     font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
     font-family: sans-serif;
     line-height: 30px;
 }
