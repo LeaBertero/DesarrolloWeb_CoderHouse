@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Lobster'; */
+   
     font-family: 'Abril Fatface', cursive;
 }
 
 /* color de fondo del html */
-html {
+.back{
     background-color: greenyellow;
 }
 
